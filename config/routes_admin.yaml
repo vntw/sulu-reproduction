@@ -2,3 +2,9 @@
 controllers:
     resource: ../src/Controller/Admin/
     type: attribute
+
+# Custom
+example_test_api:
+    type: rest
+    resource: "@ExampleTestBundle/Resources/config/routing_api.yaml"
+    prefix: /admin/api

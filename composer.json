@@ -39,6 +39,7 @@
         "scheb/2fa-bundle": "^6.1",
         "scheb/2fa-email": "^6.1",
         "scheb/2fa-trusted-device": "^6.1",
+        "sulu/content-bundle": "^0.7.0",
         "sulu/sulu": "~2.5.9",
         "symfony/config": "^6.2",
         "symfony/dotenv": "^6.2",
@@ -76,7 +77,8 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Sulu\\Bundle\\ContentBundle\\Tests\\Application\\ExampleTestBundle\\": "ExampleTestBundle/"
         }
     },
     "autoload-dev": {
